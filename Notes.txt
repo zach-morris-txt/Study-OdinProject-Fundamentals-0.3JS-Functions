@@ -1,0 +1,27 @@
+[FUNCTIONS]
+    Methods are functions attached to objects. JS has several built-in.
+
+    Function Syntax
+    Ex. function myFunction() {
+            alert("hello");         //Declared
+        }
+        myFunction()                //Invoked
+    Function Parameters - values that need to be given to the function within it's parenthesis, 
+        optional depending on the function logic
+        *Default parameters which fill-in for missing parameters can be defined with an equal 
+            sign and given value*
+            Ex. function hello(name = "Chris") {
+                    console.log(`Hello ${name}!`);
+                }
+    Function Arguments - the actual values passed to the function which parameters placehold for
+    
+    Anonymous Function Syntax   *Often used for such functions that take another function as alert
+        parameter, the anonymous function acting as the parameter*
+        Ex. (function () {
+                alert("hello");
+            });
+    
+    Global Scope - top level outside all functions, thus the variables are available "globally"
+    Function Scope - variables defined within a function, inaccessible outside of the function
+        *Note, loops & conditionals do not hold scope as functions do, though they look similar*
+        *Return function property, decides how the handled values get passed*
