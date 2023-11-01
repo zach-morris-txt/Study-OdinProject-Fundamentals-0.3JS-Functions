@@ -25,3 +25,13 @@
     Function Scope - variables defined within a function, inaccessible outside of the function
         *Note, loops & conditionals do not hold scope as functions do, though they look similar*
         *Return function property, decides how the handled values get passed*
+
+    Errors - are JS objects complete with name(type) and a message
+        Stack Trace -explains when the error was thrown and in what code it broke
+        ReferenceError - thrown when a variable is not defined and/or initialized within scope
+        SyntaxError- thrown when the code is not written according to the grammatical rules
+        TypeError - thrown when attempting to modify a value that cannot be changed, when 
+            attempting to use a value in an inappropriate way, or when an operand or argument 
+            passed to a function is incompatible with the type expected by that operator or 
+            function
+
